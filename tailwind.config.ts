@@ -14,8 +14,8 @@ export default {
     },
     extend: {
       fontFamily: {
-        sans: ['Inter', 'sans-serif'],
-        display: ['Playfair Display', 'serif'],
+        sans: ['Commissioner', 'sans-serif'],
+        display: ['Bebas Neue', 'sans-serif'],
       },
       colors: {
         border: "hsl(var(--border))",
