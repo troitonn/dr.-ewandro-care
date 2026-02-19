@@ -1,15 +1,15 @@
 import { motion } from "framer-motion";
 import { Phone, MessageCircle, ChevronDown } from "lucide-react";
-import heroBg from "@/assets/hero-bg.jpg";
+import drEwandro from "@/assets/dr-ewandro.jpeg";
 
 const Hero = () => {
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden">
       {/* Background image with overlay */}
       <div className="absolute inset-0">
-        <img src={heroBg} alt="" className="w-full h-full object-cover" />
-        <div className="absolute inset-0 bg-gradient-hero opacity-85" />
-        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-background/30" />
+        <img src={drEwandro} alt="Dr. Ewandro de Castro Ruck" className="w-full h-full object-cover object-top" />
+        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-primary/70 to-primary/95" />
+        <div className="absolute inset-0 bg-gradient-to-r from-primary/90 via-primary/60 to-transparent" />
       </div>
 
       <div className="container relative z-10 mx-auto px-6 py-20 lg:py-32">
