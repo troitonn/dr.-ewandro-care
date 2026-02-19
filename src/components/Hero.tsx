@@ -57,7 +57,7 @@ const Hero = () => {
             transition={{ duration: 0.7, delay: 0.2 }}
             className="font-body text-lg md:text-xl text-primary-foreground/85 leading-relaxed mb-4 max-w-2xl"
           >
-            Um dos poucos especialistas com atuação completa em infectologia, HIV e doenças complexas.
+            Atendimento especializado para HIV, infecções complexas e investigação diagnóstica completa.
           </motion.p>
 
           {/* Subtexto */}
@@ -67,7 +67,7 @@ const Hero = () => {
             transition={{ duration: 0.7, delay: 0.3 }}
             className="font-body text-base text-primary-foreground/70 leading-relaxed mb-10 max-w-2xl"
           >
-            Atendimento particular com tempo de consulta ampliado e olhar integral sobre o paciente.
+            Atendimento particular cconsulta ampliada e olhar integral sobre o paciente.
           </motion.p>
 
           {/* Botões */}
