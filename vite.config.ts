@@ -3,12 +3,12 @@ import react from "@vitejs/plugin-react-swc";
 import path from "path";
 import { componentTagger } from "lovable-tagger";
 
-export default defineConfig(({ mode }) => ({
-  base: "/drewandro/",
+export default defineConfig(() => ({
+  base: process.env.VITE_BASE || "/",
 
   plugins: [
     react(),
-    mode === "development" && componentTagger(),
+    process.env.NODE_ENV === "development" && componentTagger(),
   ].filter(Boolean),
 
   resolve: {
