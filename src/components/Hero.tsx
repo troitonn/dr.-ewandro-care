@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Phone, MessageCircle, ChevronDown } from "lucide-react";
-import drEwandro from "@/assets/dr-ewandro.jpeg";
+import drEwandro from "@/assets/dr-ewandro.png";
 
 const Hero = () => {
   return (
